@@ -9,7 +9,11 @@ Plugin.create(:osenbei) do
   str = [ "parieen", "baribari", 'ruiz ruiz ruiz luuuuuuuuuuuuuuuu',
           'miku no oppai kaowo luzumet soo-her soo-her ee kaori',
           'hinyu diesukii', 'she gosabaki niau', 'teoku let',
-          'fabo retyo', 'harahead', 'yojika']
+          'fabo retyo', 'harahead', 'yojika', 'sok foo ocan ni follow sareta',
+          'fabo de kanojo-gar dekimasu shousai wa coco wo click',
+          'MS kirai dawa- maji kirai dawa- aizawa hekari toka silverlight toka kankeini-yanker',
+          'favo wa ataaru-ningan wo mu-she-bami yagarte korosu'
+        ]
   thread = SerialThreadGroup.new
   on_update do |service, message|
     if !message.empty?
